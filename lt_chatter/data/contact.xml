@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="res_partner_contact" model="res.partner">
+            <field name="name">Non contact Customer</field>
+            <field name="active" eval="False"/>
+        </record>
+    </data>
+</odoo>

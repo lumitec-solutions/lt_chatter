@@ -19,5 +19,3 @@ class MailComposer(models.TransientModel):
 
     email_to = fields.Char(string="Email To")
     is_partner = fields.Boolean(string="Is Partner", default=False)
-
-
